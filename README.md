@@ -1,81 +1,41 @@
+# FindYourDoctor - Your Complete Solution for Doctor Appointment Booking
 
-# Open Source Doctor Appointment Booking System using PHP
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(1).png)
+<img width="1068" alt="Screenshot 2024-03-21 142243" src="https://github.com/varadkadtan/FindYourDoctor/assets/103556886/734c888b-b846-4ece-b5c2-439c271d90ee">
 
-[Edoc](https://github.com/HashenUdara/edoc-doctor-appointment-system/) is a Simple web project that is made for e-channeling Using PHP,HTML & CSS.
-This initiative facilitates online appointment requests for clients or patients of medical establishments, including clinics and hospitals. This project can also help doctors to manage their appointment with their patients. This doctor's appointment system will organize the schedules of each patient's appointment, which will be submitted as a request to the doctor they have selected. The system comprises three key roles: administrator, doctor, and patient. The system admin will populate the list of the doctors with their specialties and along with the doctor's details and system credentials. The patients can browse the doctor's appointment system website to find a doctor that has the specialty of their needs. Patients can review the doctor's weekly schedule, enabling them to select a suitable day and time for their appointment. Subsequently, they can submit their appointment request. After that, the doctors can view all their appointments and the appointment request of the patients for their availability.
+FindYourDoctor is an open-source web application developed using PHP, HTML, and CSS, aimed at simplifying the process of booking doctor appointments online. Whether you're a patient looking for a convenient way to schedule appointments or a doctor seeking an efficient platform to manage your bookings, FindYourDoctor caters to all your needs seamlessly.
 
+## Key Features
 
-## Features
-
-### Admin
+### For Administrators
   
-- Admin can add doctors, edit doctors, delete doctors    
-- Schedule new doctors sessions, remove sessions   
-- View patients details    
-- View booking of patients    
-    
-    
- 
- 
-### Doctors
+- Effortlessly manage doctor profiles, including adding, editing, and deleting details
+- Schedule new sessions and remove existing ones with ease
+- Keep track of patient details and bookings conveniently
 
-- View their Appointment
-- View their scheduled sessions
-- View details of patients
-- Delete account    
-- Eedit account settings
-    
+### For Doctors
 
-    
-### Patiens(Clients)
-  
-  - Make appointment online
-  - Create accounts themslves
-  - View their old booking
-  - Delete account
-  - Edit account settings    
+- Access a comprehensive overview of appointments and scheduled sessions
+- View detailed patient information for better preparation
+- Conveniently manage account settings for personalized experience
 
-    
-| Admin Dashboard | Doctor Dashboard | Patient Dashboard |
-| -------| -------| -------|
-| Email: `admin@edoc.com` | Email: `doctor@edoc.com` |   Email: `patient@edoc.com` | 
-| Password: `123` |  Password: `123` |  Password: `123` |
-| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(3).png)| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(9).png) |    ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(6).png)  |
+### For Patients
 
- 
-  
------------------------------------------------
-
-
-# GET STARTED
-
-1. Open your XAMPP Control Panel and start Apache and MySQL.
-2. Extract the downloaded source code zip file.
-3. Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
-4. Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
-5. Create a new database naming `edoc`.
-6. Import the provided SQL file. The file is known as DATABASE edoc.sql located inside the source code root folder.
-7. Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
-
+- Seamlessly book appointments online, hassle-free
+- Create and manage accounts for easy access to booking history
+- View past bookings for reference and future planning
 
 ## Screenshots
 
-| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(1).png) | ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(2).png)| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(3).png)| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(4).png)|
-|--------------| --------------|   --------------|  --------------|    
-|  ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(5).png)| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(6).png)| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(7).png)| ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(8).png)|
+### Login Page
+<img width="1078" alt="Screenshot 2024-03-21 142323" src="https://github.com/varadkadtan/FindYourDoctor/assets/103556886/69d12a08-82c8-4cfc-a06d-d6a415e6a904">
 
-# The Project was developed using the following:
+### Admin Dashboard
+<img width="1047" alt="Screenshot 2024-03-21 142347" src="https://github.com/varadkadtan/FindYourDoctor/assets/103556886/520630d4-7f03-411a-ad8e-c38de0c914ec">
 
-Apache Version: 	`2.4.39`
+## Technologies Used
+- Apache Version: `2.4.39`
+- PHP Version: `7.3.5`
+- Server Software: `Apache/2.4.39 (Win64) PHP/7.3.5`
+- MySQL Version: `5.7.26`
 
-PHP Version: 		`7.3.5`
-
-Server Software: 	`Apache/2.4.39 (Win64) PHP/7.3.5`
-
-MySQL Version: 		`5.7.26`
-
-Demo video: https://youtu.be/mAWHYAHmit4
-
-
-
+Experience the convenience of managing doctor appointments effortlessly with FindYourDoctor!
